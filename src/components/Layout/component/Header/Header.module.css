@@ -8,5 +8,64 @@
 .inner {
     height: 100%;
     width: 1150px;
-    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+}
+.search {
+    width: 361px;
+    height: 46px;
+    background-color: rgba(22, 24, 35, 0.06);
+    /* padding: 10px 14px; */
+    border-radius: 92px;
+    display: flex;
+    border: 1px solid bisque;
+}
+.search input {
+    flex: 1;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.clearBtn {
+}
+.loadingBtn {
+}
+.searchBtn {
+    width: 52px;
+    height: 100%;
+    border-top-right-radius: 92px;
+    border-bottom-right-radius: 92px;
+}
+.register {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.login {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: violet;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
